@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savery-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">NFT Survery Form</h1>
+        <p id="description">
+            Help us to make NFT better.
+        </p>
+        <form action="GET" id="survey-form">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" required="true" placeholder="Name">
+            <label for="email" id="email-label">Email</label>
+            <input type="text" id="email" required="true" placeholder="Email">
+            <label for="age" id="age-label">Age</label>
+            <input type="number" name="age" id="age" placeholder="Age"> 
+            <label for="dropdown">Choose your Role</label>
+            <select name="" id="dropdown">
+                <option value="">Select Your role</option>
+                <option value="">Junior</option>
+                <option value="">Regular</option>
+                <option value="">Collab</option>
+                <option value="">Senior</option>
+                <option value="">OG</option>
+            </select>
+            <div class="radio-buttons">
+                <h4>Select about NFT future</h4>
+                <div>
+                    <input type="radio" name="rate" id="bad">
+                    <label for="bad">Bad</label>
+                </div>
+                <div>
+                    <input type="radio" name="rate" id="decent">
+                    <label for="decent">Decent</label>
+                </div>
+                <div>
+                    <input type="radio" name="rate" id="good">
+                    <label for="good">Good</label>
+                </div>
+                <div>
+                    <input type="radio" name="rate" id="best">
+                    <label for="best">Best</label>
+                </div>
+            </div>
+            <div class="checkbox">
+                <h4>Which NFT utility you like?</h4>
+                <div>
+                    <input type="checkbox" name="utility" id="staking" value="staking">
+                    <label for="staking">staking</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="utility" id="IDO" value="IDO">
+                    <label for="IDO">IDO</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="utility" id="IOC" value="IOC">
+                    <label for="IOC">IOC</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="utility" id="P2E" value="P2E">
+                    <label for="P2E">P2E</label>
+                </div>
+            </div>
+            <label for="comments">Any comments or suggestions?</label>
+            <textarea name="comments" id="" cols="30" rows="6"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
